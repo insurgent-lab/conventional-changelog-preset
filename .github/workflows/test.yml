@@ -30,3 +30,10 @@ jobs:
           git config --global user.name "Test User"
       - name: Run tests
         run: npm run test
+      - name: Upload coverage reports to Codecov
+        if: ${{ matrix.node-version == 20 }}
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: coverage/coverage-final.json
+          fail_ci_if_error: true
