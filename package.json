@@ -1,5 +1,5 @@
 {
-  "name": "@insurgentlab/conventional-changelog-metahub",
+  "name": "@insurgentlab/conventional-changelog-preset",
   "description": "conventional-changelog preset",
   "version": "4.0.1",
   "author": "Pierre Vanduynslager",
@@ -38,13 +38,13 @@
     "tempy": "^0.5.0",
     "xo": "^0.27.0"
   },
-  "homepage": "https://github.com/insurgent-lab/conventional-changelog-metahub#readme",
+  "homepage": "https://github.com/insurgent-lab/conventional-changelog-preset#readme",
   "bugs": {
-    "url": "https://github.com/insurgent-lab/conventional-changelog-metahub/issues"
+    "url": "https://github.com/insurgent-lab/conventional-changelog-preset/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/insurgent-lab/conventional-changelog-metahub.git"
+    "url": "https://github.com/insurgent-lab/conventional-changelog-preset.git"
   },
   "keywords": [
     "changelog",
