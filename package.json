@@ -1,18 +1,21 @@
 {
-  "name": "conventional-changelog-metahub",
+  "name": "@insurgentlab/conventional-changelog-metahub",
   "description": "conventional-changelog preset",
-  "version": "0.0.0-development",
+  "version": "4.0.1",
   "author": "Pierre Vanduynslager",
-  "ava": {
-    "files": [
-      "test/**/*.test.js"
-    ],
-    "helpers": [
-      "test/helpers/**/*"
-    ]
+  "maintainers": [
+    "Pierre Cavin <me@sherlox.io>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "codecov": "codecov -f coverage/coverage-final.json",
+    "lint": "xo",
+    "semantic-release": "semantic-release",
+    "test": "nyc ava -v"
   },
-  "bugs": {
-    "url": "https://github.com/pvdlg/conventional-changelog-metahub/issues"
+  "engines": {
+    "node": ">=10.13"
   },
   "dependencies": {
     "conventional-changelog-angular": "^5.0.0",
@@ -35,17 +38,14 @@
     "tempy": "^0.5.0",
     "xo": "^0.27.0"
   },
-  "engines": {
-    "node": ">=10.13"
+  "homepage": "https://github.com/insurgent-lab/conventional-changelog-metahub#readme",
+  "bugs": {
+    "url": "https://github.com/insurgent-lab/conventional-changelog-metahub/issues"
   },
-  "files": [
-    "lib/*.js",
-    "index.js",
-    "release-rules.js",
-    "types.js",
-    "aliases.js"
-  ],
-  "homepage": "https://github.com/pvdlg/conventional-changelog-metahub#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/insurgent-lab/conventional-changelog-metahub.git"
+  },
   "keywords": [
     "changelog",
     "conventional-changelog",
@@ -54,8 +54,21 @@
     "release",
     "semantic-release"
   ],
-  "license": "MIT",
-  "main": "index.js",
+  "files": [
+    "lib/*.js",
+    "index.js",
+    "release-rules.js",
+    "types.js",
+    "aliases.js"
+  ],
+  "ava": {
+    "files": [
+      "test/**/*.test.js"
+    ],
+    "helpers": [
+      "test/helpers/**/*"
+    ]
+  },
   "nyc": {
     "include": [
       "lib/*.js",
@@ -71,13 +84,6 @@
     ],
     "all": true
   },
-  "prettier": {
-    "printWidth": 120,
-    "trailingComma": "es5"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "release": {
     "analyzeCommits": {
       "config": "./index.js",
@@ -86,17 +92,6 @@
     "generateNotes": {
       "config": "./index.js"
     }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pvdlg/conventional-changelog-metahub.git"
-  },
-  "scripts": {
-    "codecov": "codecov -f coverage/coverage-final.json",
-    "lint": "xo",
-    "pretest": "npm run lint",
-    "semantic-release": "semantic-release",
-    "test": "nyc ava -v"
   },
   "xo": {
     "prettier": true,
