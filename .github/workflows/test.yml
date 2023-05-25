@@ -24,5 +24,9 @@ jobs:
         run: npm ci
       - name: Check codestyle compliance
         run: npm run lint
+      - name: Setup Git for tests
+        run: |
+          git config --global user.email "user@test.com"
+          git config --global user.name "Test User"
       - name: Run tests
         run: npm run test
