@@ -15,7 +15,7 @@
     "test": "nyc ava -v"
   },
   "engines": {
-    "node": ">=10.13"
+    "node": ">=16"
   },
   "dependencies": {
     "conventional-changelog-angular": "^5.0.0",
