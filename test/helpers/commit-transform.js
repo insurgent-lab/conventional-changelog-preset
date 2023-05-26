@@ -1,4 +1,4 @@
-import proxyquire from 'proxyquire';
+const proxyquire = require('proxyquire');
 
 /**
  * Call the `commit-transform` function, replacing `types` with parameter.
@@ -9,9 +9,9 @@ import proxyquire from 'proxyquire';
  * @param {Object} [context={}] context parameter to pass to `commit-transform`.
  * @return {Object} the commit transformed with the `types` in parameter.
  */
-export default function commitTransform(commit, types, context = {}) {
+module.exports = function commitTransform(commit, types, context = {}) {
   return proxyquire('../../lib/commit-transform', { '../types': { types } })(
     commit,
     context
   );
-}
+};

@@ -14,7 +14,7 @@
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:fix": "npm run lint:eslint -- --fix && npm run lint:prettier -- --write",
     "semantic-release": "semantic-release",
-    "test": "nyc ava -v"
+    "test": "nyc ava --no-worker-threads -v"
   },
   "engines": {
     "node": ">=16"
@@ -74,9 +74,6 @@
   "ava": {
     "files": [
       "test/**/*.test.js"
-    ],
-    "helpers": [
-      "test/helpers/**/*"
     ]
   },
   "nyc": {

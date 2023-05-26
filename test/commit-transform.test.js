@@ -1,5 +1,5 @@
-import test from 'ava';
-import transform from './helpers/commit-transform';
+const test = require('ava');
+const transform = require('./helpers/commit-transform');
 
 const COMMIT_HASH_LENGTH = 7;
 

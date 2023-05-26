@@ -1,6 +1,6 @@
-import path from 'path';
-import test from 'ava';
-import changelog from './helpers/changelog';
+const path = require('path');
+const changelog = require('./helpers/changelog');
+const test = require('ava');
 
 const COMMIT_HASH_LENGTH = 7;
 

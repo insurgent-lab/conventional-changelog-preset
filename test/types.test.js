@@ -1,9 +1,7 @@
-import test from 'ava';
-import emojiRegex from 'emoji-regex/text';
-import { length } from 'stringz';
-import { types, typesOrder } from '../types';
-
-/* eslint valid-typeof: ["error", {requireStringLiterals: false}] */
+const test = require('ava');
+const emojiRegex = require('emoji-regex/text');
+const { length } = require('stringz');
+const { types, typesOrder } = require('../types');
 
 /**
  * AVA macro that verifies that each object in `object` has the property `prop` of type `type`.
