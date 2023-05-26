@@ -1,5 +1,5 @@
 const test = require('ava');
-const emojiRegex = require('emoji-regex/text');
+const emojiRegex = require('emoji-regex');
 const { length } = require('stringz');
 const { types, typesOrder } = require('../types');
 
