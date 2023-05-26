@@ -30,7 +30,7 @@
     "@semantic-release/github": "^8.0.7",
     "@semantic-release/npm": "^10.0.3",
     "@semantic-release/release-notes-generator": "^11.0.1",
-    "ava": "^2.4.0",
+    "ava": "^5.0.0",
     "conventional-changelog": "^3.0.1",
     "emoji-regex": "^8.0.0",
     "eslint": "^8.41.0",
