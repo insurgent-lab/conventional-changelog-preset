@@ -1,11 +1,12 @@
-# **conventional-changelog-preset**
+# **Insurgent Lab's conventional-changelog preset**
+
+![npm (scoped)](https://img.shields.io/npm/v/@insurgentlab/conventional-changelog-preset)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/insurgent-lab/conventional-changelog-preset/release.yml?branch=main)
+[![Codecov](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset/branch/main/graph/badge.svg)](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
 
 [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) preset built from a list of [conventional commit types](src/types.js) (similar to [conventional-commit-types](https://github.com/commitizen/conventional-commit-types)).
 Also provides [release rules](https://github.com/semantic-release/commit-analyzer#releaserules) configuration for [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer#releaserules).
-
-![Tests](https://img.shields.io/github/actions/workflow/status/insurgent-lab/conventional-changelog-preset/test.yml?branch=main&label=tests)
-[![Codecov](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset/branch/main/graph/badge.svg)](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset)
-[![Greenkeeper badge](https://badges.greenkeeper.io/insurgent-lab/conventional-changelog-preset.svg)](https://greenkeeper.io/)
 
 Commit types originally from:
 - [Angular Git Commit Message Conventions](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#type)
