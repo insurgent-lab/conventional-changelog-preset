@@ -4,7 +4,7 @@
 Also provides [release rules](https://github.com/semantic-release/commit-analyzer#releaserules) configuration for [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer#releaserules).
 
 ![Tests](https://img.shields.io/github/actions/workflow/status/insurgent-lab/conventional-changelog-preset/test.yml?branch=main&label=tests)
-[![Codecov](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset/branch/chore/repository-overhaul/graph/badge.svg)](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset)
+[![Codecov](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset/branch/main/graph/badge.svg)](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset)
 [![Greenkeeper badge](https://badges.greenkeeper.io/insurgent-lab/conventional-changelog-preset.svg)](https://greenkeeper.io/)
 
 Commit types originally from:
@@ -17,42 +17,40 @@ Commit types originally from:
 npm install --save-dev @insurgentlab/conventional-changelog-preset
 ```
 
-## Configuration for sr-commit-analyzer
+## Configuration for [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer)
 
 ```bash
-npm install --save-dev sr-commit-analyzer
+npm install --save-dev @semantic-release/commit-analyzer
 ```
 
 ```json
 {
-  "release": {
-    "analyzeCommits": {
-      "path": "sr-commit-analyzer",
-      "preset": "metahub",
-      "releaseRules": "conventional-changelog-metahub/release-rules"
-    }
-  }
+  "plugins": [
+    ["@semantic-release/commit-analyzer", {
+      "config": "@insurgentlab/conventional-changelog-preset",
+      "releaseRules": "@insurgentlab/conventional-changelog-preset/release-rules"
+    }]
+  ]
 }
 ```
 
-## Configuration for sr-release-notes-generator
+## Configuration for [@semantic-release/release-notes-generator](https://github.com/semantic-release/release-notes-generator)
 
 ```bash
-npm install --save-dev sr-release-notes-generator
+npm install --save-dev @semantic-release/release-notes-generator
 ```
 
 ```json
 {
-  "release": {
-    "generateNotes": {
-      "path": "sr-release-notes-generator",
-      "preset": "metahub"
-    }
-  }
+  "plugins": [
+    ["@semantic-release/release-notes-generator", {
+      "config": "@insurgentlab/conventional-changelog-preset"
+    }]
+  ]
 }
 ```
 
-## Use with conventional-changelog
+## Use with [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)
 
 ```bash
 npm install --save-dev conventional-changelog
@@ -61,7 +59,7 @@ npm install --save-dev conventional-changelog
 ```js
 import conventionalChangelog from 'conventional-changelog';
 
-const config = require('conventional-changelog-metahub');
+const config = require('@insurgentlab/conventional-changelog-preset');
 conventionalChangelog({config}).pipe(process.stdout);
 ```
 
