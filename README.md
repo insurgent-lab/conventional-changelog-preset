@@ -1,11 +1,11 @@
-# **conventional-changelog-metahub**
+# **conventional-changelog-preset**
 
 [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) preset built from a list of [conventional commit types](src/types.js) (similar to [conventional-commit-types](https://github.com/commitizen/conventional-commit-types)).
-Also provides [release rules](https://github.com/pvdlg/sr-commit-analyzer#release-rules) configuration for [sr-commit-analyzer](https://github.com/pvdlg/sr-commit-analyzer).
+Also provides [release rules](https://github.com/semantic-release/commit-analyzer#releaserules) configuration for [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer#releaserules).
 
-[![Travis](https://img.shields.io/travis/pvdlg/conventional-changelog-metahub.svg)](https://travis-ci.org/pvdlg/conventional-changelog-metahub)
-[![Codecov](https://img.shields.io/codecov/c/github/pvdlg/conventional-changelog-metahub.svg)](https://codecov.io/gh/pvdlg/conventional-changelog-metahub)
-[![Greenkeeper badge](https://badges.greenkeeper.io/pvdlg/conventional-changelog-metahub.svg)](https://greenkeeper.io/)
+![Tests](https://img.shields.io/github/actions/workflow/status/insurgent-lab/conventional-changelog-preset/test.yml?branch=main&label=tests)
+[![Codecov](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset/branch/chore/repository-overhaul/graph/badge.svg)](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset)
+[![Greenkeeper badge](https://badges.greenkeeper.io/insurgent-lab/conventional-changelog-preset.svg)](https://greenkeeper.io/)
 
 Commit types originally from:
 - [Angular Git Commit Message Conventions](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#type)
@@ -14,7 +14,7 @@ Commit types originally from:
 
 ## Install
 ```bash
-npm install --save-dev conventional-changelog-metahub
+npm install --save-dev @insurgentlab/conventional-changelog-preset
 ```
 
 ## Configuration for sr-commit-analyzer
@@ -96,5 +96,5 @@ For example the [commitizen](https://github.com/commitizen/cz-cli) CLI can prese
 | `metadata`         | `fix`   | Metadata          | Update metadata (package.json)  | 📦     |
 
 ## Related
-- [cz-conventional-commit](https://github.com/pvdlg/cz-conventional-commit)
+- [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)
 - [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)
