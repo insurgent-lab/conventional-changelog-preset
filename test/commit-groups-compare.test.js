@@ -1,5 +1,5 @@
-import test from 'ava';
-import commitGroupsCompare from './helpers/commit-groups-compare';
+const test = require('ava');
+const commitGroupsCompare = require('./helpers/commit-groups-compare');
 
 test('Return ordered commit groups', (t) => {
   const commitGroups = [

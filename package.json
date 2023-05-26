@@ -14,7 +14,7 @@
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:fix": "npm run lint:eslint -- --fix && npm run lint:prettier -- --write",
     "semantic-release": "semantic-release",
-    "test": "nyc ava -v"
+    "test": "nyc ava --no-worker-threads -v"
   },
   "engines": {
     "node": ">=16"
@@ -30,7 +30,7 @@
     "@semantic-release/github": "^8.0.7",
     "@semantic-release/npm": "^10.0.3",
     "@semantic-release/release-notes-generator": "^11.0.1",
-    "ava": "^2.4.0",
+    "ava": "^5.0.0",
     "conventional-changelog": "^3.0.1",
     "emoji-regex": "^8.0.0",
     "eslint": "^8.41.0",
@@ -74,9 +74,6 @@
   "ava": {
     "files": [
       "test/**/*.test.js"
-    ],
-    "helpers": [
-      "test/helpers/**/*"
     ]
   },
   "nyc": {

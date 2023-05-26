@@ -1,6 +1,6 @@
-import test from 'ava';
-import { find } from 'lodash';
-import releaseRules from './helpers/release-rules';
+const test = require('ava');
+const { find } = require('lodash');
+const releaseRules = require('./helpers/release-rules');
 
 test('Always set breking changes as "major" release', (t) => {
   t.deepEqual(find(releaseRules(), { breaking: true }), {

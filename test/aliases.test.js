@@ -1,8 +1,8 @@
-import test from 'ava';
-import emojiRegex from 'emoji-regex/text';
-import { length } from 'stringz';
-import aliases from '../aliases';
-import { types, typesOrder } from '../types';
+const test = require('ava');
+const emojiRegex = require('emoji-regex/text');
+const { length } = require('stringz');
+const aliases = require('../aliases');
+const { types, typesOrder } = require('../types');
 
 /* eslint valid-typeof: ["error", {requireStringLiterals: false}] */
 

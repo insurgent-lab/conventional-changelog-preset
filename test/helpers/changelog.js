@@ -1,11 +1,11 @@
-import fs from 'fs-extra';
-import tempy from 'tempy';
-import execa from 'execa';
-import conventionalChangelog from 'conventional-changelog';
-import getStream from 'get-stream';
-import pEachSeries from 'p-each-series';
-import proxyquire from 'proxyquire';
-import { merge } from 'lodash';
+const conventionalChangelog = require('conventional-changelog');
+const execa = require('execa');
+const getStream = require('get-stream');
+const { merge } = require('lodash');
+const pEachSeries = require('p-each-series');
+const proxyquire = require('proxyquire');
+const tempy = require('tempy');
+const fs = require('fs-extra');
 
 /**
  * Create a temporary git repository with commits.
@@ -16,7 +16,7 @@ import { merge } from 'lodash';
  * @param {Array} config additionnal configuration to pass to conventional-changelog.
  * @return {string} the changelog.
  */
-export default async function changelog(messages, types, config = {}) {
+module.exports = async function changelog(messages, types, config = {}) {
   const dir = tempy.directory();
 
   process.chdir(dir);
@@ -44,4 +44,4 @@ export default async function changelog(messages, types, config = {}) {
       )
     )
   );
-}
+};

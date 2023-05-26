@@ -12,9 +12,6 @@ module.exports = {
   overrides: [
     {
       files: ['test/**/*.js'],
-      parserOptions: {
-        sourceType: 'module',
-      },
       plugins: ['ava'],
     },
   ],
