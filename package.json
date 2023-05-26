@@ -46,7 +46,7 @@
     "proxyquire": "^2.0.0",
     "semantic-release": "^21.0.2",
     "stringz": "^2.0.0",
-    "tempy": "^1.0.1"
+    "tempy": "^3.0.0"
   },
   "homepage": "https://github.com/insurgent-lab/conventional-changelog-preset#readme",
   "bugs": {
