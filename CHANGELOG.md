@@ -1,3 +1,42 @@
+# [5.0.0](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v4.0.1...v5.0.0) (2023-05-26)
+
+
+### 🛠 Builds
+
+* **deps:** update dependencies ([1da808c](https://github.com/insurgent-lab/conventional-changelog-preset/commit/1da808cd91ddc7edb5f2dcec4b7d468ba658fe94))
+* **deps:** update semantic-release packages ([162d36f](https://github.com/insurgent-lab/conventional-changelog-preset/commit/162d36f4476457af6a63ad872213ae9832cb39cd))
+
+
+### 📚 Documentation
+
+* create CHANGELOG from previous commit history ([8fdfb13](https://github.com/insurgent-lab/conventional-changelog-preset/commit/8fdfb13abe6f411adbb037792b348dcbc63e65ca))
+* **readme:** update documentation ([2595a9e](https://github.com/insurgent-lab/conventional-changelog-preset/commit/2595a9e0de9ce554d0f101e4322718cac03e4072))
+* **readme:** update links ([9cb993c](https://github.com/insurgent-lab/conventional-changelog-preset/commit/9cb993c2444735e9264bb488d1ccf9258812ec46))
+
+
+### ⚙️ Continuous Integrations
+
+* add coverage upload to test workflow ([fc9f081](https://github.com/insurgent-lab/conventional-changelog-preset/commit/fc9f0814a51f8ae254e742199c70e32b9bc0a376))
+* add release workflow ([5c68720](https://github.com/insurgent-lab/conventional-changelog-preset/commit/5c687205a986bdce194f609426e13424e0a2157e))
+* add test workflow ([c7ed1be](https://github.com/insurgent-lab/conventional-changelog-preset/commit/c7ed1be411ab3e6e876ae30b555f0c997901fad5))
+* fix release workflow ([742e57b](https://github.com/insurgent-lab/conventional-changelog-preset/commit/742e57b12240b800edbae1c2407af455f30f8ed2))
+* fix test workflow ([890c060](https://github.com/insurgent-lab/conventional-changelog-preset/commit/890c06006c5b6786c1751238ed894f1f606d4acd))
+
+
+### ♻️ Chores
+
+* disable codecov comments ([d91025f](https://github.com/insurgent-lab/conventional-changelog-preset/commit/d91025f095dd36d3999e39bb704bc9a477ac739c))
+* drop support for unmaintained node versions ([8ae27be](https://github.com/insurgent-lab/conventional-changelog-preset/commit/8ae27be09c66d6c48a1eae5b74be344970682adc))
+* **package:** update fs-extra to version 9.0.0 ([9bb2d5f](https://github.com/insurgent-lab/conventional-changelog-preset/commit/9bb2d5f685f4990b48281c761ff47c0618b97042))
+* **package:** update tempy to version 0.5.0 ([8d6d6d2](https://github.com/insurgent-lab/conventional-changelog-preset/commit/8d6d6d2367d1303115b8162023e25764bce4c5a3))
+* remove travis conf & codecov dependency ([5d4cda3](https://github.com/insurgent-lab/conventional-changelog-preset/commit/5d4cda3b7c29c8b86c866fbaf11ad640ff9fdf3e))
+* rename repository ([172b722](https://github.com/insurgent-lab/conventional-changelog-preset/commit/172b7222c784ef16b55cb4e9dfc25f60c993fc01))
+* various changes after repository transfer ([120280c](https://github.com/insurgent-lab/conventional-changelog-preset/commit/120280cb2691822edad16cc7679a0eb80de48d2e))
+
+
+### Breaking changes
+
+* require Node.js => 16
 
 -----
 
@@ -167,6 +206,3 @@ The CHANGELOG below was generated with [conventional-changelog-cli](https://www.
 ## 1.0.0 (2017-08-24)
 
 * feat: Initial commit 🎉 ([8ef112a](https://github.com/insurgent-lab/conventional-changelog-preset/commit/8ef112a))
-
-
-
