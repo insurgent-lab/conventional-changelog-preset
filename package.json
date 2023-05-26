@@ -9,7 +9,10 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "lint": "xo",
+    "lint:eslint": "eslint . --ext .js",
+    "lint:prettier": "prettier './**/*.{json,md,yml}' --check",
+    "lint": "npm run lint:eslint && npm run lint:prettier",
+    "lint:fix": "npm run lint:eslint -- --fix && npm run lint:prettier -- --write",
     "semantic-release": "semantic-release",
     "test": "nyc ava -v"
   },
@@ -30,16 +33,20 @@
     "ava": "^2.4.0",
     "conventional-changelog": "^3.0.1",
     "emoji-regex": "^8.0.0",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-ava": "^14.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "execa": "^4.0.0",
     "fs-extra": "^11.0.0",
     "get-stream": "^6.0.0",
     "nyc": "^15.0.0",
     "p-each-series": "^2.1.0",
+    "prettier": "2.8.8",
     "proxyquire": "^2.0.0",
     "semantic-release": "^21.0.2",
     "stringz": "^2.0.0",
-    "tempy": "^0.7.0",
-    "xo": "^0.27.0"
+    "tempy": "^0.7.0"
   },
   "homepage": "https://github.com/insurgent-lab/conventional-changelog-preset#readme",
   "bugs": {
@@ -86,11 +93,5 @@
       "text"
     ],
     "all": true
-  },
-  "xo": {
-    "prettier": true,
-    "rules": {
-      "prefer-named-capture-group": "off"
-    }
   }
 }
