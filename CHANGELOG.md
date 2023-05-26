@@ -1,3 +1,19 @@
+## [5.0.1](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v5.0.0...v5.0.1) (2023-05-26)
+
+
+### 📚 Documentation
+
+* **readme:** add links to badges ([044fcae](https://github.com/insurgent-lab/conventional-changelog-preset/commit/044fcae6553edd3e5826edde265808d5355d81ed))
+
+
+### ♻️ Chores
+
+* add renovate.json ([101b748](https://github.com/insurgent-lab/conventional-changelog-preset/commit/101b74873bb59f5064f00b065dded0c4bad4c5f7))
+* **deps:** update dependency fs-extra to v11 ([f0c0b8d](https://github.com/insurgent-lab/conventional-changelog-preset/commit/f0c0b8d67345e8f22c9ef8192895b6eb7621a97b))
+* **deps:** update dependency get-stream to v6 ([650d962](https://github.com/insurgent-lab/conventional-changelog-preset/commit/650d962baa1d88f8fcfaf551cb0179a68bc84ac9))
+* **deps:** update dependency tempy to ^0.7.0 ([72d9202](https://github.com/insurgent-lab/conventional-changelog-preset/commit/72d9202bb82a91abb257faa12121b0f75b7b6534))
+* fix readme badges ([e5bc571](https://github.com/insurgent-lab/conventional-changelog-preset/commit/e5bc5719c930a96d7af35c44a29c870bdaa3e072))
+
 # [5.0.0](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v4.0.1...v5.0.0) (2023-05-26)
 
 
