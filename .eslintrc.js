@@ -8,7 +8,7 @@ module.exports = {
     es6: true,
   },
   extends: ['eslint:recommended', 'plugin:prettier/recommended'],
-  ignorePatterns: ['.eslintrc.js'],
+  ignorePatterns: ['coverage', '.eslintrc.js'],
   overrides: [
     {
       files: ['test/**/*.js'],
