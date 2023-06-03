@@ -13,7 +13,7 @@
     "lint:prettier": "prettier ./**/*.{json,md,yml} --check",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:fix": "npm run lint:eslint -- --fix && npm run lint:prettier -- --write",
-    "semantic-release": "semantic-release",
+    "release": "semantic-release",
     "test": "nyc ava --no-worker-threads -v"
   },
   "engines": {
