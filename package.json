@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "lint:eslint": "eslint . --ext .js",
-    "lint:prettier": "prettier './**/*.{json,md,yml}' --check",
+    "lint:prettier": "prettier ./**/*.{json,md,yml} --check",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:fix": "npm run lint:eslint -- --fix && npm run lint:prettier -- --write",
     "semantic-release": "semantic-release",
