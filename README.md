@@ -4,6 +4,7 @@
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/insurgent-lab/conventional-changelog-preset/release.yml?branch=main)](https://github.com/insurgent-lab/conventional-changelog-preset/actions/workflows/release.yml)
 [![Codecov](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset/branch/main/graph/badge.svg)](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://github.com/insurgent-lab/conventional-changelog-preset/issues/5)
+![Snyk](https://img.shields.io/snyk/vulnerabilities/github/insurgent-lab/conventional-changelog-preset)
 
 [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) preset built from a list of [conventional commit types](src/types.js) (similar to [conventional-commit-types](https://github.com/commitizen/conventional-commit-types)).
 Also provides [release rules](https://github.com/semantic-release/commit-analyzer#releaserules) configuration for [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer#releaserules).
