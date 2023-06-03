@@ -8,11 +8,10 @@
 [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) preset built from a list of [conventional commit types](src/types.js) (similar to [conventional-commit-types](https://github.com/commitizen/conventional-commit-types)).
 Also provides [release rules](https://github.com/semantic-release/commit-analyzer#releaserules) configuration for [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer#releaserules).
 
-Commit types originally from:
+Commit types _originally_ from:
 
-- [Angular Git Commit Message Conventions](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#type)
-- [commitizen/cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)
-- [conventional-commit-types](https://github.com/commitizen/conventional-commit-types)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0)
+- [commitizen/conventional-commit-types](https://github.com/commitizen/conventional-commit-types)
 
 ## Install
 
@@ -94,13 +93,13 @@ Aliases allow to have additional commit types (in a tool like [commitizen](https
 
 For example the [commitizen](https://github.com/commitizen/cz-cli) CLI can present the choice `initial` and the final commit message will be 'feat: Initial commit 🎉'
 
-|    Commit Type     | Maps to | Title             | Description                     | Emoji |
-| :----------------: | ------- | ----------------- | ------------------------------- | :---: |
-|     `initial`      | `feat`  | Initial           | Initial commit                  |  🎉   |
-|   `dependencies`   | `fix`   | Dependencies      | Update dependencies             |  ⬆️   |
-| `peerDependencies` | `fix`   | Peer dependencies | Update peer dependencies        |  ⬆️   |
-| `devDependencies`  | `chore` | Dev dependencies  | Update development dependencies |  ⬆️   |
-|     `metadata`     | `fix`   | Metadata          | Update metadata (package.json)  |  📦   |
+| Commit Type | Maps to | Title             | Description                     | Emoji |
+| :---------: | ------- | ----------------- | ------------------------------- | :---: |
+|  `initial`  | `feat`  | Initial           | Initial commit                  |  🎉   |
+|   `deps`    | `fix`   | Dependencies      | Update dependencies             |  ⬆️   |
+|  `devdeps`  | `chore` | Dev dependencies  | Update development dependencies |  ⬆️   |
+| `peerdeps`  | `fix`   | Peer dependencies | Update peer dependencies        |  ⬆️   |
+| `metadata`  | `fix`   | Metadata          | Update metadata (package.json)  |  📦   |
 
 ## Related
 

@@ -20,7 +20,7 @@
     "node": ">=16"
   },
   "dependencies": {
-    "conventional-changelog-angular": "^5.0.13",
+    "conventional-changelog-conventionalcommits": "5.0.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {

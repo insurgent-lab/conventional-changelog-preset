@@ -56,7 +56,7 @@ test.serial(
       }
     );
 
-    t.regex(log, /### Breaking changes/);
+    t.regex(log, /### ⚠ Breaking changes/);
     t.regex(log, /### Fix title/);
     t.regex(log, /\* \*\*scope1:\*\* First fix/);
     t.regex(log, /### Feature title/);
