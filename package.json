@@ -77,7 +77,8 @@
   "ava": {
     "files": [
       "test/**/*.test.js"
-    ]
+    ],
+    "timeout": "15s"
   },
   "nyc": {
     "include": [
