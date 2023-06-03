@@ -1,3 +1,42 @@
+## [6.0.0](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v5.0.1...v6.0.0) (2023-06-03)
+
+
+### ⚠ Breaking changes
+
+* switch base preset from angular to conventionalcommits
+
+### ✨ Features
+
+* use conventionalcommits as base preset ([b4d4703](https://github.com/insurgent-lab/conventional-changelog-preset/commit/b4d47031489baddce96139a0a9418b2189b8f6e8))
+
+
+### ⚙️ Continuous Integrations
+
+* add windows and mac os to test matrix ([58d3e32](https://github.com/insurgent-lab/conventional-changelog-preset/commit/58d3e32808a3f214c8ab2c6767332c2fd102f9ef))
+* use env instead of matrix strategy ([ac92991](https://github.com/insurgent-lab/conventional-changelog-preset/commit/ac9299105039cd92fef4204e1d869ce37a8c0acb))
+
+
+### ♻️ Chores
+
+* add coverage to eslint ignorePatterns ([2300c54](https://github.com/insurgent-lab/conventional-changelog-preset/commit/2300c5457065bdc79b8e3e2510159a5080d5775b))
+* **deps:** replace xo with eslint & prettier ([feffd9f](https://github.com/insurgent-lab/conventional-changelog-preset/commit/feffd9f69110f588b566204577a484029cab65d3))
+* **deps:** update dependency ava to v5 ([#6](https://github.com/insurgent-lab/conventional-changelog-preset/issues/6)) ([d23fbfb](https://github.com/insurgent-lab/conventional-changelog-preset/commit/d23fbfba600d4091972ab2881864f1389be9eab9))
+* **deps:** update dependency emoji-regex to v10 ([#7](https://github.com/insurgent-lab/conventional-changelog-preset/issues/7)) ([f5044f5](https://github.com/insurgent-lab/conventional-changelog-preset/commit/f5044f51a858ce8fc7c8cbaa0e16fb455e10b18f))
+* **deps:** update dependency execa to v5 ([bc79c22](https://github.com/insurgent-lab/conventional-changelog-preset/commit/bc79c22e1d7ebcc6cb7d36d83ef2d4f4dc56c699))
+* **deps:** update dependency p-each-series to ^2.2.0 ([50e9344](https://github.com/insurgent-lab/conventional-changelog-preset/commit/50e93444022068176d6a1ca1b65c6152524673fd))
+* **deps:** update dependency tempy to ^1.0.1 ([94d9a62](https://github.com/insurgent-lab/conventional-changelog-preset/commit/94d9a620d2562b8d4c8bbf32f8895cd90fc0e767))
+* **deps:** update semantic-release monorepo ([8454ce4](https://github.com/insurgent-lab/conventional-changelog-preset/commit/8454ce44d7b8834a313d62c42e346273f8f7b977))
+* fix prettier matching pattern ([b061964](https://github.com/insurgent-lab/conventional-changelog-preset/commit/b0619645fdd6fdae2e08a0e3e285f43d3db69a6f))
+* increase tests timeout ([44b0324](https://github.com/insurgent-lab/conventional-changelog-preset/commit/44b0324858f4cbfe4e04c8b54e870b67f649518e))
+* move publish config to package.json ([ef5eb94](https://github.com/insurgent-lab/conventional-changelog-preset/commit/ef5eb947f9c93edb711332bd126290541b6c4041))
+* rename release npm script ([5989f40](https://github.com/insurgent-lab/conventional-changelog-preset/commit/5989f40a04abf5f499fe77263dc849e420569ad4))
+* update license ([67a5152](https://github.com/insurgent-lab/conventional-changelog-preset/commit/67a5152414348c9279b92508096071ca936f61bd))
+
+
+### 💎 Styles
+
+* fix prettier endOfLine ([b8c093c](https://github.com/insurgent-lab/conventional-changelog-preset/commit/b8c093c3b6c7c5ddb3e425536435feb214f0f973))
+
 ## [5.0.1](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v5.0.0...v5.0.1) (2023-05-26)
 
 
