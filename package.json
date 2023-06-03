@@ -71,6 +71,9 @@
     "types.js",
     "aliases.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "ava": {
     "files": [
       "test/**/*.test.js"
