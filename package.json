@@ -31,7 +31,7 @@
     "@semantic-release/npm": "^10.0.3",
     "@semantic-release/release-notes-generator": "^11.0.1",
     "ava": "^5.0.0",
-    "conventional-changelog": "^3.0.1",
+    "conventional-changelog": "^4.0.0",
     "emoji-regex": "^10.0.0",
     "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
