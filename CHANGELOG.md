@@ -1,3 +1,10 @@
+## [6.0.2](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v6.0.1...v6.0.2) (2023-06-07)
+
+
+### 🐛 Bug Fixes
+
+* remove outdated aliases feature ([135600e](https://github.com/insurgent-lab/conventional-changelog-preset/commit/135600e133f752557d33580662f6886c37e701be))
+
 ## [6.0.1](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v6.0.0...v6.0.1) (2023-06-07)
 
 
