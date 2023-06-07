@@ -68,8 +68,7 @@
     "lib/*.js",
     "index.js",
     "release-rules.js",
-    "types.js",
-    "aliases.js"
+    "types.js"
   ],
   "publishConfig": {
     "access": "public"
@@ -85,8 +84,7 @@
       "lib/*.js",
       "index.js",
       "release-rules.js",
-      "types.js",
-      "aliases.js"
+      "types.js"
     ],
     "reporter": [
       "html",

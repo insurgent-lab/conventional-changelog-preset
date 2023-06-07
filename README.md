@@ -88,20 +88,6 @@ conventionalChangelog({ config }).pipe(process.stdout);
 |   `chore`   | Chores                   | Other changes that don't modify src or test files                                                           |  ♻️   | -                              |        `true`        |
 |  `revert`   | Reverts                  | Reverts a previous commit                                                                                   |   🗑   | -                              |        `true`        |
 
-## Commit aliases
-
-Aliases allow to have additional commit types (in a tool like [commitizen](https://github.com/commitizen/cz-cli) for example) that can be formatted to follow [AngularJS Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit).
-
-For example the [commitizen](https://github.com/commitizen/cz-cli) CLI can present the choice `initial` and the final commit message will be 'feat: Initial commit 🎉'
-
-| Commit Type | Maps to | Title             | Description                     | Emoji |
-| :---------: | ------- | ----------------- | ------------------------------- | :---: |
-|  `initial`  | `feat`  | Initial           | Initial commit                  |  🎉   |
-|   `deps`    | `fix`   | Dependencies      | Update dependencies             |  ⬆️   |
-|  `devdeps`  | `chore` | Dev dependencies  | Update development dependencies |  ⬆️   |
-| `peerdeps`  | `fix`   | Peer dependencies | Update peer dependencies        |  ⬆️   |
-| `metadata`  | `fix`   | Metadata          | Update metadata (package.json)  |  📦   |
-
 ## Related
 
 - [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)
