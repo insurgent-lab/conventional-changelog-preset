@@ -1,3 +1,16 @@
+## [6.0.1](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v6.0.0...v6.0.1) (2023-06-07)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v6 ([#15](https://github.com/insurgent-lab/conventional-changelog-preset/issues/15)) ([27b1960](https://github.com/insurgent-lab/conventional-changelog-preset/commit/27b1960756169853429d7d01642cb97b79fb4d9e))
+
+
+### ♻️ Chores
+
+* **deps:** update dependency conventional-changelog to v4 ([#16](https://github.com/insurgent-lab/conventional-changelog-preset/issues/16)) ([b5c233e](https://github.com/insurgent-lab/conventional-changelog-preset/commit/b5c233eccbe0350220f20ba9a969d6e30753ba24))
+* **readme:** add Snyk badge ([5183306](https://github.com/insurgent-lab/conventional-changelog-preset/commit/51833063fba4bff0c681ee3cbfe1e6c9cdb4c6f0))
+
 ## [6.0.0](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v5.0.1...v6.0.0) (2023-06-03)
 
 
