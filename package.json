@@ -43,7 +43,7 @@
     "nyc": "15.1.0",
     "p-each-series": "2.2.0",
     "prettier": "2.8.8",
-    "proxyquire": "2.0.0",
+    "proxyquire": "2.0.2",
     "semantic-release": "21.0.5",
     "stringz": "2.0.0",
     "tempy": "1.0.1"
