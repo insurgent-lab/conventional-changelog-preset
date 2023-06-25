@@ -1,3 +1,30 @@
+## [6.0.3](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v6.0.2...v6.0.3) (2023-06-25)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v6.1.0 ([#20](https://github.com/insurgent-lab/conventional-changelog-preset/issues/20)) ([27649b7](https://github.com/insurgent-lab/conventional-changelog-preset/commit/27649b751f4c80d4fe64c587f62198ece6cc2372))
+
+
+### ♻️ Chores
+
+* **deps:** lock file maintenance ([#26](https://github.com/insurgent-lab/conventional-changelog-preset/issues/26)) ([4adb768](https://github.com/insurgent-lab/conventional-changelog-preset/commit/4adb7685f35cbaa71250f8930c4f3c4075e444bb))
+* **deps:** pin exact dependencies [skip ci] ([6c4fe83](https://github.com/insurgent-lab/conventional-changelog-preset/commit/6c4fe83dcbe9ab3c0a3040eb3aa6a658da9d87f8))
+* **deps:** update dependency ava to v5.3.0 ([#22](https://github.com/insurgent-lab/conventional-changelog-preset/issues/22)) ([2375665](https://github.com/insurgent-lab/conventional-changelog-preset/commit/2375665e83565a844b8dfe56c1148d482351ea5f))
+* **deps:** update dependency ava to v5.3.1 ([6754322](https://github.com/insurgent-lab/conventional-changelog-preset/commit/6754322bb1359c9ed887553ac72a9407508f42cb))
+* **deps:** update dependency emoji-regex to v10.0.1 ([ce01c8f](https://github.com/insurgent-lab/conventional-changelog-preset/commit/ce01c8f3baf33b2a1dd77f14512dc3cc84627a54))
+* **deps:** update dependency emoji-regex to v10.2.1 ([a763e9c](https://github.com/insurgent-lab/conventional-changelog-preset/commit/a763e9cc84b15adc6cd0ef962ec7ca735839dba9))
+* **deps:** update dependency eslint to v8.42.0 ([#25](https://github.com/insurgent-lab/conventional-changelog-preset/issues/25)) ([2fa4d3d](https://github.com/insurgent-lab/conventional-changelog-preset/commit/2fa4d3da63f8454a17d9f4bed01dab9bb53ef2dc))
+* **deps:** update dependency eslint to v8.43.0 ([73fa0e8](https://github.com/insurgent-lab/conventional-changelog-preset/commit/73fa0e86789ddcda79ef24bcb89c34e5dcf3037d))
+* **deps:** update dependency fs-extra to v11.1.1 ([#34](https://github.com/insurgent-lab/conventional-changelog-preset/issues/34)) ([ad6ce9d](https://github.com/insurgent-lab/conventional-changelog-preset/commit/ad6ce9dc6a146142b2f650b3d5c87415393dc5dd))
+* **deps:** update dependency get-stream to v6.0.1 ([083d601](https://github.com/insurgent-lab/conventional-changelog-preset/commit/083d601e7085cd3917701c316c43c3a9046d3fce))
+* **deps:** update dependency nyc to v15.0.1 ([77a609e](https://github.com/insurgent-lab/conventional-changelog-preset/commit/77a609ef4a1aeaa0f5f95536f952d4b8d509e57e))
+* **deps:** update dependency nyc to v15.1.0 ([#35](https://github.com/insurgent-lab/conventional-changelog-preset/issues/35)) ([28f501f](https://github.com/insurgent-lab/conventional-changelog-preset/commit/28f501fd949fd21cf90a0bb27f4ca1955d80635d))
+* **deps:** update dependency proxyquire to v2.1.3 ([#36](https://github.com/insurgent-lab/conventional-changelog-preset/issues/36)) ([bae8288](https://github.com/insurgent-lab/conventional-changelog-preset/commit/bae82886304a20f083fcd2779b5917e3f2e58a63))
+* **deps:** update dependency stringz to v2.1.0 ([#37](https://github.com/insurgent-lab/conventional-changelog-preset/issues/37)) ([45ab717](https://github.com/insurgent-lab/conventional-changelog-preset/commit/45ab717c923f428e9eddec57d41484d7147ba993))
+* **deps:** update semantic-release monorepo ([860f65a](https://github.com/insurgent-lab/conventional-changelog-preset/commit/860f65a3320f18a83c95229341da37bae13533da))
+* update renovate.json ([e377ce9](https://github.com/insurgent-lab/conventional-changelog-preset/commit/e377ce9c04434b2328c8113df9d14f7db2284114))
+
 ## [6.0.2](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v6.0.1...v6.0.2) (2023-06-07)
 
 
