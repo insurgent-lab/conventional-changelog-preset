@@ -1,7 +1,7 @@
 {
   "name": "@insurgentlab/conventional-changelog-preset",
   "description": "conventional-changelog preset",
-  "version": "6.0.3",
+  "version": "6.0.4",
   "author": "Pierre Vanduynslager",
   "maintainers": [
     "Pierre Cavin <me@sherlox.io>"
