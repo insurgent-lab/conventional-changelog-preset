@@ -14,18 +14,16 @@ jobs:
     needs: lint-and-test
 
     runs-on: ubuntu-latest
-    env:
-      node-version: 18.x
 
     steps:
       - name: Checkout project
         uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
         with:
           persist-credentials: false
-      - name: Use Node.js ${{ env.node-version }}
+      - name: Use Node.js
         uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3
         with:
-          node-version: ${{ env.node-version }}
+          node-version: 'lts/*'
       - name: Install packages
         run: npm ci
       - name: Run Semantic Release
