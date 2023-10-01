@@ -1,3 +1,25 @@
+## [7.0.0](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v6.0.5...v7.0.0) (2023-10-01)
+
+
+### ⚠ Breaking changes
+
+* preset now exports preset config factory function. See conventional-changelog/conventional-changelog#1045.
+
+### ✨ Features
+
+* update preset interface ([c1bd57d](https://github.com/insurgent-lab/conventional-changelog-preset/commit/c1bd57d47883314a8eb5f6c4b58eab80580361dc))
+
+
+### ⚙️ Continuous Integrations
+
+* **action:** use lts node version in test workflow ([7f779d6](https://github.com/insurgent-lab/conventional-changelog-preset/commit/7f779d6a835e4755a100de14991ef401d2290323))
+
+
+### ♻️ Chores
+
+* **deps:** update dependency [@semantic-release](https://github.com/semantic-release)/github to v9.2.1 ([#94](https://github.com/insurgent-lab/conventional-changelog-preset/issues/94)) ([1eef3d0](https://github.com/insurgent-lab/conventional-changelog-preset/commit/1eef3d027932dda4bcecb6b7eee04e0f59106741))
+* **deps:** update semantic-release monorepo (major) ([#95](https://github.com/insurgent-lab/conventional-changelog-preset/issues/95)) [skip ci] ([532019c](https://github.com/insurgent-lab/conventional-changelog-preset/commit/532019c60885c0065c20ea10c13c480facfa88db))
+
 ## [6.0.5](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v6.0.4...v6.0.5) (2023-09-30)
 
 
