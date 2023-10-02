@@ -1,14 +1,12 @@
-'use strict';
-
-const _ = require('lodash');
-const types = require('./types');
+import _ from 'lodash';
+import { types } from './types.js';
 
 /**
  * @type {Array} `releaseRules` configuration for `sr-commit-analyzer`.
  */
-module.exports = [{ breaking: true, release: 'major' }].concat(
+export default [{ breaking: true, release: 'major' }].concat(
   _.transform(
-    types.types,
+    types,
     (releaseRules, value, type) => {
       if (value.release) {
         if (typeof value.release === 'string') {

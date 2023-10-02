@@ -1,13 +1,13 @@
-const test = require('ava');
-const commitGroupsCompare = require('./helpers/commit-groups-compare');
+import test from 'ava';
+import commitGroupsCompare from './helpers/commit-groups-compare.js';
 
-test('Return ordered commit groups', (t) => {
+test('Return ordered commit groups', async (t) => {
   const commitGroups = [
     { title: '📘 Documentation', commits: [{ type: 'docs' }] },
     { title: '🐞 Bug Fixes', commits: [{ type: 'fix' }] },
     { title: 'Features', commits: [{ type: 'feat' }] },
   ];
-  const compare = commitGroupsCompare({
+  const compare = await commitGroupsCompare({
     typesOrder: ['feat', 'fix', 'docs', 'initial', 'metadata'],
     types: {
       feat: { title: 'Features' },
@@ -23,7 +23,7 @@ test('Return ordered commit groups', (t) => {
   ]);
 });
 
-test('Return alphabeticaly ordered commit groups not in "typesOrder" at the end of the list', (t) => {
+test('Return alphabeticaly ordered commit groups not in "typesOrder" at the end of the list', async (t) => {
   const commitGroups = [
     { title: 'b-Test', commits: [{ type: 'btest' }] },
     { title: 'z-Test', commits: [{ type: 'ztest' }] },
@@ -32,7 +32,7 @@ test('Return alphabeticaly ordered commit groups not in "typesOrder" at the end 
     { title: 'a-Test', commits: [{ type: 'atest' }] },
     { title: 'Features', commits: [{ type: 'feat' }] },
   ];
-  const compare = commitGroupsCompare({
+  const compare = await commitGroupsCompare({
     typesOrder: ['feat', 'fix'],
     types: {
       feat: { title: 'Features' },

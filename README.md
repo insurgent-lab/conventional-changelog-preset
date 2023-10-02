@@ -16,6 +16,8 @@ Commit types _originally_ from:
 
 ## Install
 
+**Starting from v9, this package is a [pure ESM module](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)**, which will only work with `@semantic-release/commit-analyzer@>=11.1.0` and `@semantic-release/release-notes-generator@>=12.1.0`. If you cannot upgrade, you can keep using [v8](https://github.com/insurgent-lab/conventional-changelog-preset/tree/v8).
+
 ```bash
 npm install --save-dev @insurgent/conventional-changelog-preset
 ```

@@ -1,33 +1,36 @@
-const test = require('ava');
-const { find } = require('lodash');
-const releaseRules = require('./helpers/release-rules');
+import test from 'ava';
+import _ from 'lodash';
+import releaseRules from './helpers/release-rules.js';
+const { find } = _;
 
-test('Always set breking changes as "major" release', (t) => {
-  t.deepEqual(find(releaseRules(), { breaking: true }), {
+test('Always set breking changes as "major" release', async (t) => {
+  t.deepEqual(find(await releaseRules(), { breaking: true }), {
     breaking: true,
     release: 'major',
   });
 });
 
-test('Include a type in release-rules if it has "release" set to "true"', (t) => {
+test('Include a type in release-rules if it has "release" set to "true"', async (t) => {
   t.deepEqual(
-    find(releaseRules({ feat: { release: 'minor' } }), { type: 'feat' }),
+    find(await releaseRules({ feat: { release: 'minor' } }), { type: 'feat' }),
     { type: 'feat', release: 'minor' }
   );
 });
 
-test('Do not Include a type in release-rules if it has "release" set to "false"', (t) => {
-  t.falsy(find(releaseRules({ feat: { release: false } }), { type: 'feat' }));
+test('Do not Include a type in release-rules if it has "release" set to "false"', async (t) => {
+  t.falsy(
+    find(await releaseRules({ feat: { release: false } }), { type: 'feat' })
+  );
 });
 
-test('Do not Include a type in release-rules if it has no "release"', (t) => {
-  t.falsy(find(releaseRules({ feat: {} }), { type: 'feat' }));
+test('Do not Include a type in release-rules if it has no "release"', async (t) => {
+  t.falsy(find(await releaseRules({ feat: {} }), { type: 'feat' }));
 });
 
-test('Include a type in release-rules if it has "release" set to a rule', (t) => {
+test('Include a type in release-rules if it has "release" set to a rule', async (t) => {
   t.deepEqual(
     find(
-      releaseRules({
+      await releaseRules({
         feat: { release: { criteria: 'value', release: 'minor' } },
       }),
       { type: 'feat' }

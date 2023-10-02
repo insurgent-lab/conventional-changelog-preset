@@ -1,11 +1,12 @@
-const conventionalChangelog = require('conventional-changelog');
-const execa = require('execa');
-const getStream = require('get-stream');
-const { merge } = require('lodash');
-const pEachSeries = require('p-each-series');
-const proxyquire = require('proxyquire');
-const tempy = require('tempy');
-const fs = require('fs-extra');
+import conventionalChangelog from 'conventional-changelog';
+import esmock from 'esmock';
+import execa from 'execa';
+import fs from 'fs-extra';
+import getStream from 'get-stream';
+import _ from 'lodash';
+import pEachSeries from 'p-each-series';
+import tempy from 'tempy';
+const { merge } = _;
 
 /**
  * Create a temporary git repository with commits.
@@ -14,9 +15,9 @@ const fs = require('fs-extra');
  * @param {Array<string>} messages the commit message (1 commit per message).
  * @param {Array} types the commit types configuration.
  * @param {Array} config additionnal configuration to pass to conventional-changelog.
- * @return {string} the changelog.
+ * @return {Promise<string>} the changelog.
  */
-module.exports = async function changelog(messages, types, config = {}) {
+export default async function changelog(messages, types, config = {}) {
   const dir = tempy.directory();
 
   process.chdir(dir);
@@ -30,13 +31,16 @@ module.exports = async function changelog(messages, types, config = {}) {
     conventionalChangelog(
       merge(
         {
-          config: proxyquire('../..', {
-            './lib/commit-transform': proxyquire('../../lib/commit-transform', {
-              '../types': types,
-            }),
-            './lib/commit-groups-compare': proxyquire(
+          config: await esmock('../..', {
+            '../../lib/commit-transform': await esmock(
+              '../../lib/commit-transform',
+              {
+                '../../types': { types },
+              }
+            ),
+            '../../lib/commit-groups-compare': await esmock(
               '../../lib/commit-groups-compare',
-              { '../types': types }
+              { '../../types': { types } }
             ),
           }),
         },
@@ -44,4 +48,4 @@ module.exports = async function changelog(messages, types, config = {}) {
       )
     )
   );
-};
+}
