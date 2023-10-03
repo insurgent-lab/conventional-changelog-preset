@@ -1,7 +1,6 @@
 import test from 'ava';
-import _ from 'lodash';
+import { find } from 'lodash-es';
 import releaseRules from './helpers/release-rules.js';
-const { find } = _;
 
 test('Always set breking changes as "major" release', async (t) => {
   t.deepEqual(find(await releaseRules(), { breaking: true }), {

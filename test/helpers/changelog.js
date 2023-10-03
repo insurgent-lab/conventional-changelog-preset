@@ -3,10 +3,9 @@ import esmock from 'esmock';
 import execa from 'execa';
 import fs from 'fs-extra';
 import getStream from 'get-stream';
-import _ from 'lodash';
+import { merge } from 'lodash-es';
 import pEachSeries from 'p-each-series';
 import tempy from 'tempy';
-const { merge } = _;
 
 /**
  * Create a temporary git repository with commits.
