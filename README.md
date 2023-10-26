@@ -1,6 +1,6 @@
 # **Insurgent Lab's conventional-changelog preset**
 
-[![npm](https://img.shields.io/npm/v/@insurgentlab/conventional-changelog-preset)](https://www.npmjs.com/package/@insurgentlab/conventional-changelog-preset)
+[![npm](https://img.shields.io/npm/v/@insurgent/conventional-changelog-preset)](https://www.npmjs.com/package/@insurgent/conventional-changelog-preset)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/insurgent-lab/conventional-changelog-preset/release.yml?branch=main)](https://github.com/insurgent-lab/conventional-changelog-preset/actions/workflows/release.yml)
 [![Codecov](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset/branch/main/graph/badge.svg)](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://github.com/insurgent-lab/conventional-changelog-preset/issues/5)
@@ -17,7 +17,7 @@ Commit types _originally_ from:
 ## Install
 
 ```bash
-npm install --save-dev @insurgentlab/conventional-changelog-preset
+npm install --save-dev @insurgent/conventional-changelog-preset
 ```
 
 ## Configuration for [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer)
@@ -32,8 +32,8 @@ npm install --save-dev @semantic-release/commit-analyzer
     [
       "@semantic-release/commit-analyzer",
       {
-        "config": "@insurgentlab/conventional-changelog-preset",
-        "releaseRules": "@insurgentlab/conventional-changelog-preset/release-rules"
+        "config": "@insurgent/conventional-changelog-preset",
+        "releaseRules": "@insurgent/conventional-changelog-preset/release-rules"
       }
     ]
   ]
@@ -52,7 +52,7 @@ npm install --save-dev @semantic-release/release-notes-generator
     [
       "@semantic-release/release-notes-generator",
       {
-        "config": "@insurgentlab/conventional-changelog-preset"
+        "config": "@insurgent/conventional-changelog-preset"
       }
     ]
   ]
@@ -68,7 +68,7 @@ npm install --save-dev conventional-changelog
 ```js
 import conventionalChangelog from 'conventional-changelog';
 
-const config = require('@insurgentlab/conventional-changelog-preset');
+const config = require('@insurgent/conventional-changelog-preset');
 conventionalChangelog({ config }).pipe(process.stdout);
 ```
 
