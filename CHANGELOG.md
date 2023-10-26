@@ -1,3 +1,29 @@
+## [8.0.0](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v7.0.0...v8.0.0) (2023-10-26)
+
+
+### ⚠ Breaking changes
+
+* package renamed to @insurgent/conventional-changelog-preset
+
+### ⚙️ Continuous Integrations
+
+* **action:** increase timeout to allow fetching node 21 ([4c323a0](https://github.com/insurgent-lab/conventional-changelog-preset/commit/4c323a0bdc7fab0d49c68e066d95d48f1b3e62d4))
+* **action:** update actions/checkout digest to b4ffde6 ([#100](https://github.com/insurgent-lab/conventional-changelog-preset/issues/100)) ([deb937e](https://github.com/insurgent-lab/conventional-changelog-preset/commit/deb937e46ab21b805a6b3cb8368415ef751cf70f))
+* **action:** update actions/setup-node action to v4 ([#110](https://github.com/insurgent-lab/conventional-changelog-preset/issues/110)) ([97ba538](https://github.com/insurgent-lab/conventional-changelog-preset/commit/97ba5383adc12d57f33cc056a4722e69e9446c5f))
+* **action:** update workflows ([e08b793](https://github.com/insurgent-lab/conventional-changelog-preset/commit/e08b793c795520c98aebf2dd0c0be22fb18a0893))
+
+
+### ♻️ Chores
+
+* **deps:** lock file maintenance ([019335c](https://github.com/insurgent-lab/conventional-changelog-preset/commit/019335c247c4dc60c26d377310927bb3f2635cc0))
+* **deps:** lock file maintenance ([0137af2](https://github.com/insurgent-lab/conventional-changelog-preset/commit/0137af259987a87fde953efc5a957d45c70eff1d))
+* **deps:** remove default semantic-release plugins ([7dbc896](https://github.com/insurgent-lab/conventional-changelog-preset/commit/7dbc896f180790a25e9d6187bcb5675e3936cff6))
+* **deps:** update dependency emoji-regex to v10.3.0 ([75f309c](https://github.com/insurgent-lab/conventional-changelog-preset/commit/75f309ca58f61e377633e2799d818d78b0889402))
+* **deps:** update dependency eslint to v8.51.0 ([#97](https://github.com/insurgent-lab/conventional-changelog-preset/issues/97)) ([805dcd2](https://github.com/insurgent-lab/conventional-changelog-preset/commit/805dcd2676999e4b40bec53c26c78c42f9990e41))
+* **deps:** update dependency eslint to v8.52.0 ([95f9bcf](https://github.com/insurgent-lab/conventional-changelog-preset/commit/95f9bcfc84d2b059a83c01d6dda93584efbd336a))
+* **deps:** update dependency eslint-plugin-prettier to v5.0.1 ([7fe0f3a](https://github.com/insurgent-lab/conventional-changelog-preset/commit/7fe0f3acc3dd8279271a443014efe26c683be2d7))
+* update package scope ([ca7c283](https://github.com/insurgent-lab/conventional-changelog-preset/commit/ca7c283ea26fc01dd0ce6ec41bb9daba7776f3bd))
+
 ## [7.0.0](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v6.0.5...v7.0.0) (2023-10-01)
 
 
