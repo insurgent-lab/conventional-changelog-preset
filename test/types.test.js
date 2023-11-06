@@ -1,7 +1,7 @@
-const test = require('ava');
-const emojiRegex = require('emoji-regex');
-const { length } = require('stringz');
-const { types, typesOrder } = require('../types');
+import test from 'ava';
+import emojiRegex from 'emoji-regex';
+import { length } from 'stringz';
+import { types, typesOrder } from '../types.js';
 
 /**
  * AVA macro that verifies that each object in `object` has the property `prop` of type `type`.

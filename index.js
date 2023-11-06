@@ -1,17 +1,16 @@
-'use strict';
+import _ from 'lodash-es';
 
-const _ = require('lodash');
-const conventionalChangelogConventionalCommits =
-  require('conventional-changelog-conventionalcommits')();
-const commitGroupsSort = require('./lib/commit-groups-compare');
-const transform = require('./lib/commit-transform');
+import conventionalChangelogConventionalCommits from 'conventional-changelog-conventionalcommits';
+
+import commitGroupsSort from './lib/commit-groups-compare.js';
+import transform from './lib/commit-transform.js';
 
 async function createPreset() {
-  return conventionalChangelogConventionalCommits.then((preset) =>
+  return conventionalChangelogConventionalCommits().then((preset) =>
     _.merge(preset, {
       writerOpts: { transform, commitGroupsSort, groupBy: 'groupType' },
     })
   );
 }
 
-module.exports = createPreset;
+export default createPreset;

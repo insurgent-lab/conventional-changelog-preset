@@ -1,12 +1,12 @@
-const proxyquire = require('proxyquire');
+import esmock from 'esmock';
 
 /**
  * Return the `commit-groups-compare` function, replacing `types` with parameter.
  *
  * @method commitGroupsCompare
  * @param {Object} types commit types to test with.
- * @return {Object} the commit groups compare function.
+ * @return {Promise<Object>} the commit groups compare function.
  */
-module.exports = function commitGroupsCompare(types) {
-  return proxyquire('../../lib/commit-groups-compare', { '../types': types });
-};
+export default function commitGroupsCompare(types) {
+  return esmock('../../lib/commit-groups-compare', { '../../types': types });
+}
