@@ -17,7 +17,7 @@
     "lint:prettier": "prettier ./**/*.{json,md,yml} --check",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:fix": "npm run lint:eslint -- --fix && npm run lint:prettier -- --write",
-    "test": "cross-env NODE_OPTIONS='--loader=esmock --no-warnings' nyc ava --no-worker-threads -v",
+    "test": "cross-env NODE_OPTIONS=\"--loader=esmock --no-warnings\" nyc ava --no-worker-threads -v",
     "release": "semantic-release"
   },
   "engines": {
