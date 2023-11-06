@@ -1,6 +1,12 @@
 {
   "repositoryUrl": "git@github.com:insurgent-lab/conventional-changelog-preset.git",
-  "branches": ["main"],
+  "branches": [
+    "main",
+    {
+      "name": "beta",
+      "prerelease": true
+    }
+  ],
   "tagFormat": "v${version}",
   "plugins": [
     [
@@ -26,7 +32,11 @@
     [
       "@semantic-release/git",
       {
-        "assets": ["CHANGELOG.md", "package.json", "package-lock.json"],
+        "assets": [
+          "CHANGELOG.md",
+          "package.json",
+          "package-lock.json"
+        ],
         "message": "Release v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ],
