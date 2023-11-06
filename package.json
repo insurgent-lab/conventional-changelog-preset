@@ -49,6 +49,18 @@
     "stringz": "2.1.0",
     "tempy": "1.0.1"
   },
+  "peerDependencies": {
+    "@semantic-release/release-notes-generator": ">= 12.1.0",
+    "@semantic-release/commit-analyzer": ">= 11.1.0"
+  },
+  "peerDependenciesMeta": {
+    "@semantic-release/release-notes-generator": {
+      "optional": true
+    },
+    "@semantic-release/commit-analyzer": {
+      "optional": true
+    }
+  },
   "homepage": "https://github.com/insurgent-lab/conventional-changelog-preset#readme",
   "bugs": {
     "url": "https://github.com/insurgent-lab/conventional-changelog-preset/issues"
