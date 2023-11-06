@@ -17,7 +17,7 @@
     "lint:prettier": "prettier ./**/*.{json,md,yml} --check",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:fix": "npm run lint:eslint -- --fix && npm run lint:prettier -- --write",
-    "test": "NODE_OPTIONS='--loader=esmock --no-warnings' nyc ava --no-worker-threads -v",
+    "test": "cross-env NODE_OPTIONS='--loader=esmock --no-warnings' nyc ava --no-worker-threads -v",
     "release": "semantic-release"
   },
   "engines": {
@@ -32,6 +32,7 @@
     "@semantic-release/git": "10.0.1",
     "ava": "5.3.1",
     "conventional-changelog": "5.1.0",
+    "cross-env": "^7.0.3",
     "emoji-regex": "10.3.0",
     "eslint": "8.52.0",
     "eslint-config-prettier": "9.0.0",
@@ -50,8 +51,8 @@
     "tempy": "1.0.1"
   },
   "peerDependencies": {
-    "@semantic-release/release-notes-generator": ">= 12.1.0",
-    "@semantic-release/commit-analyzer": ">= 11.1.0"
+    "@semantic-release/commit-analyzer": ">= 11.1.0",
+    "@semantic-release/release-notes-generator": ">= 12.1.0"
   },
   "peerDependenciesMeta": {
     "@semantic-release/release-notes-generator": {
