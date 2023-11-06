@@ -1,7 +1,3 @@
-export const maxSubjectLength = 72;
-
-export const bodyLineLength = 100;
-
 export const typesOrder = [
   'feat',
   'fix',
