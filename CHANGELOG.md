@@ -1,3 +1,24 @@
+## [8.0.1](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v8.0.0...v8.0.1) (2023-11-16)
+
+
+### 📚 Documentation
+
+* **readme:** remove semantic-release plugins install commands ([88de630](https://github.com/insurgent-lab/conventional-changelog-preset/commit/88de6309fbb504d940ee9888da5b8de5776babba))
+
+
+### ⚙️ Continuous Integrations
+
+* **action:** run tests on PR to beta ([f887f56](https://github.com/insurgent-lab/conventional-changelog-preset/commit/f887f567a2fce8e1d55c5b6eb9d5bfe8fe51ea4c))
+* setup beta branch release process ([0aa4221](https://github.com/insurgent-lab/conventional-changelog-preset/commit/0aa4221f8c2fb256b8ec67f4d05b2530307c15bd))
+* setup maintenance branches release process ([282a2d0](https://github.com/insurgent-lab/conventional-changelog-preset/commit/282a2d0ca4613f4e29837c75747e642f901a4de7))
+
+
+### ♻️ Chores
+
+* **deps:** lock file maintenance ([cf58dec](https://github.com/insurgent-lab/conventional-changelog-preset/commit/cf58dec7166486928b44ad3fb7150851bb192aa3))
+* **deps:** lock file maintenance ([3339bbc](https://github.com/insurgent-lab/conventional-changelog-preset/commit/3339bbc910895e15010fc72f2f8063ad252336b7))
+* **deps:** update dependency semantic-release to v22.0.6 ([cdb7f1f](https://github.com/insurgent-lab/conventional-changelog-preset/commit/cdb7f1fe62a5b8a49786f2f52c41a8a693269a9c))
+
 ## [8.0.0](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v7.0.0...v8.0.0) (2023-10-26)
 
 
