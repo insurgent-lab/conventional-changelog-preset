@@ -22,10 +22,6 @@ npm install --save-dev @insurgent/conventional-changelog-preset
 
 ## Configuration for [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer)
 
-```bash
-npm install --save-dev @semantic-release/commit-analyzer
-```
-
 ```json
 {
   "plugins": [
@@ -41,10 +37,6 @@ npm install --save-dev @semantic-release/commit-analyzer
 ```
 
 ## Configuration for [@semantic-release/release-notes-generator](https://github.com/semantic-release/release-notes-generator)
-
-```bash
-npm install --save-dev @semantic-release/release-notes-generator
-```
 
 ```json
 {
