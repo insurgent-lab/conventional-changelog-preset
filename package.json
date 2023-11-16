@@ -44,7 +44,7 @@
     "fs-extra": "11.1.1",
     "get-stream": "6.0.1",
     "p-each-series": "2.2.0",
-    "prettier": "3.0.3",
+    "prettier": "3.1.0",
     "semantic-release": "22.0.7",
     "stringz": "2.1.0",
     "tempy": "1.0.1"
