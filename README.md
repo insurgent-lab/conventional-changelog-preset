@@ -1,8 +1,8 @@
 # **Insurgent Lab's conventional-changelog preset**
 
-[![npm](https://img.shields.io/npm/v/@insurgent/conventional-changelog-preset)](https://www.npmjs.com/package/@insurgent/conventional-changelog-preset)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/insurgent-lab/conventional-changelog-preset/release.yml?branch=main)](https://github.com/insurgent-lab/conventional-changelog-preset/actions/workflows/release.yml)
-[![Codecov](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset/branch/main/graph/badge.svg)](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset)
+[![npm release-8.x](https://img.shields.io/npm/v/%40insurgent/conventional-changelog-preset/release-8.x)](https://www.npmjs.com/package/@insurgent/conventional-changelog-preset/v/release-8.x)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/insurgent-lab/conventional-changelog-preset/release.yml?branch=8.x)](https://github.com/insurgent-lab/conventional-changelog-preset/actions/workflows/release.yml?query=branch%3A8.x)
+[![Codecov](https://codecov.io/gh/insurgent-lab/conventional-changelog-preset/branch/8.x/graph/badge.svg)](https://app.codecov.io/gh/insurgent-lab/conventional-changelog-preset/tree/8.x)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://github.com/insurgent-lab/conventional-changelog-preset/issues/5)
 ![Snyk](https://img.shields.io/snyk/vulnerabilities/github/insurgent-lab/conventional-changelog-preset)
 
@@ -17,7 +17,7 @@ Commit types _originally_ from:
 ## Install
 
 ```bash
-npm install --save-dev @insurgent/conventional-changelog-preset
+npm install --save-dev @insurgent/conventional-changelog-preset@release-8.x
 ```
 
 ## Configuration for [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer)
