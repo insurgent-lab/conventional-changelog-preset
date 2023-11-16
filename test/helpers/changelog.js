@@ -5,7 +5,7 @@ import fs from 'fs-extra';
 import getStream from 'get-stream';
 import { merge } from 'lodash-es';
 import pEachSeries from 'p-each-series';
-import tempy from 'tempy';
+import { temporaryDirectory } from 'tempy';
 
 /**
  * Create a temporary git repository with commits.
@@ -17,7 +17,7 @@ import tempy from 'tempy';
  * @return {Promise<string>} the changelog.
  */
 export default async function changelog(messages, types, config = {}) {
-  const dir = tempy.directory();
+  const dir = temporaryDirectory();
 
   process.chdir(dir);
   await fs.mkdir('git-templates');
