@@ -1,6 +1,6 @@
 import conventionalChangelog from 'conventional-changelog';
 import esmock from 'esmock';
-import execa from 'execa';
+import { execa } from 'execa';
 import fs from 'fs-extra';
 import getStream from 'get-stream';
 import { merge } from 'lodash-es';
