@@ -32,7 +32,7 @@
     "@semantic-release/git": "10.0.1",
     "ava": "5.3.1",
     "c8": "8.0.1",
-    "conventional-changelog": "5.1.0",
+    "conventional-changelog": "6.0.0",
     "cross-env": "7.0.3",
     "emoji-regex": "10.3.0",
     "eslint": "8.57.0",
