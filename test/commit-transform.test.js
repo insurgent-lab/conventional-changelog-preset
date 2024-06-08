@@ -5,7 +5,7 @@ const COMMIT_HASH_LENGTH = 7;
 
 test('Return transformed commit if type has "changelog" "true"', async (t) => {
   const commit = await transform(
-    { type: 'feat', hash: '1234567890' },
+    { type: 'feat', hash: '1234567890', notes: [] },
     { feat: { title: 'Feature title', changelog: true } }
   );
 
@@ -15,19 +15,19 @@ test('Return transformed commit if type has "changelog" "true"', async (t) => {
 
 test('Return transformed commit and truncate hash', async (t) => {
   const commit = await transform(
-    { type: 'feat', hash: '1234567890' },
+    { type: 'feat', hash: '1234567890', notes: [] },
     { feat: { title: 'Feature title', changelog: true } }
   );
 
   t.is(commit.type, 'feat');
   t.is(commit.groupType, 'Feature title');
   t.is(commit.shortHash.length, COMMIT_HASH_LENGTH);
-  t.true('1234567890'.startsWith(commit.hash));
+  t.true('1234567890'.startsWith(commit.shortHash));
 });
 
 test('Return "null" if type has "changelog" "false"', async (t) => {
   const commit = await transform(
-    { type: 'feat' },
+    { type: 'feat', notes: [] },
     { feat: { title: 'Feature title', changelog: false } }
   );
 
@@ -36,7 +36,7 @@ test('Return "null" if type has "changelog" "false"', async (t) => {
 
 test('Return "null" if type has no "changelog" set', async (t) => {
   const commit = await transform(
-    { type: 'feat' },
+    { type: 'feat', notes: [] },
     { feat: { title: 'Feature title' } }
   );
 
@@ -71,7 +71,7 @@ test('Set notes title to "Breaking changes" if commit has a breaking change', as
 
 test('Return transformed commit and preserve "scope"', async (t) => {
   const commit = await transform(
-    { type: 'feat', scope: 'scope1' },
+    { type: 'feat', scope: 'scope1', notes: [] },
     { feat: { title: 'Feature title', changelog: true } }
   );
 
@@ -82,7 +82,7 @@ test('Return transformed commit and preserve "scope"', async (t) => {
 
 test('Return transformed commit and remove "scope" if "*"', async (t) => {
   const commit = await transform(
-    { type: 'feat', scope: '*' },
+    { type: 'feat', scope: '*', notes: [] },
     { feat: { title: 'Feature title', changelog: true } }
   );
 
@@ -93,7 +93,7 @@ test('Return transformed commit and remove "scope" if "*"', async (t) => {
 
 test('Transform reference links in subject', async (t) => {
   const commit = await transform(
-    { type: 'feat', subject: 'Subject, closes #123, fix #456' },
+    { type: 'feat', subject: 'Subject, closes #123, fix #456', notes: [] },
     { feat: { title: 'Feature title', changelog: true } },
     {
       host: 'https://github.com',
@@ -112,7 +112,7 @@ test('Transform reference links in subject', async (t) => {
 
 test('Transform reference link in subject (with repoUrl)', async (t) => {
   const commit = await transform(
-    { type: 'feat', subject: 'Subject, closes #123, fix #456' },
+    { type: 'feat', subject: 'Subject, closes #123, fix #456', notes: [] },
     { feat: { title: 'Feature title', changelog: true } },
     { repoUrl: 'https://github.com/github_user/repo_name' }
   );
@@ -131,6 +131,7 @@ test('Remove reference if already present in subject', async (t) => {
       type: 'feat',
       subject: 'Subject, closes #123',
       references: [{ issue: '123' }, { issue: '456' }],
+      notes: [],
     },
     { feat: { title: 'Feature title', changelog: true } },
     { repoUrl: 'https://github.com/github_user/repo_name' }
@@ -144,7 +145,7 @@ test('Remove reference if already present in subject', async (t) => {
 
 test('Transform mention link in subject', async (t) => {
   const commit = await transform(
-    { type: 'feat', subject: 'Subject, @username @username2' },
+    { type: 'feat', subject: 'Subject, @username @username2', notes: [] },
     { feat: { title: 'Feature title', changelog: true } },
     { host: 'https://github.com' }
   );
