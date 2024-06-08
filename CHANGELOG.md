@@ -1,3 +1,69 @@
+## [10.0.0](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v9.0.1...v10.0.0) (2024-06-08)
+
+### ⚠ Breaking changes
+
+* now requires conventional-changelog >= 6.0.0
+
+### 📦 Code Refactoring
+
+* update to new conventional-changelog preset interface ([#133](https://github.com/insurgent-lab/conventional-changelog-preset/issues/133)) ([92430f8](https://github.com/insurgent-lab/conventional-changelog-preset/commit/92430f8a1537ea278e4b718ee27994e5bc6d754d))
+
+### ♻️ Chores
+
+* **deps:** lock file maintenance ([626078c](https://github.com/insurgent-lab/conventional-changelog-preset/commit/626078cecbc51589fd5a4094a90655a633c71fd3))
+* **deps:** lock file maintenance ([a5dadea](https://github.com/insurgent-lab/conventional-changelog-preset/commit/a5dadea94153b1fc4ab9ee73a23d0edab953577e))
+* **deps:** lock file maintenance ([b728cc1](https://github.com/insurgent-lab/conventional-changelog-preset/commit/b728cc136e4a8c19472a7e13cb0885a136778c3d))
+* **deps:** lock file maintenance ([b881458](https://github.com/insurgent-lab/conventional-changelog-preset/commit/b8814583e1cd841e008556ca6b8c394d24e4e571))
+* **deps:** lock file maintenance ([f8609dc](https://github.com/insurgent-lab/conventional-changelog-preset/commit/f8609dcfcba637fff7e9e171ab949819cdd2a72a))
+* **deps:** lock file maintenance ([0ada7b2](https://github.com/insurgent-lab/conventional-changelog-preset/commit/0ada7b2e3c0e88207a8196def180e292870e31b7))
+* **deps:** lock file maintenance ([92a3a6f](https://github.com/insurgent-lab/conventional-changelog-preset/commit/92a3a6fffec713462ebc3d1987538a05ced1dc60))
+* **deps:** lock file maintenance ([d08911b](https://github.com/insurgent-lab/conventional-changelog-preset/commit/d08911b2d5e1faf4a0dbebece05c7349f1fe0ed3))
+* **deps:** lock file maintenance ([d101132](https://github.com/insurgent-lab/conventional-changelog-preset/commit/d1011321645157cab299cad84859d16ca593c6a9))
+* **deps:** lock file maintenance ([90eb782](https://github.com/insurgent-lab/conventional-changelog-preset/commit/90eb782f4681063ebead1fd9cb645d2615190a6b))
+* **deps:** lock file maintenance ([91ad050](https://github.com/insurgent-lab/conventional-changelog-preset/commit/91ad0506d27a244faacac74629dc9613bd3d6973))
+* **deps:** lock file maintenance ([96c57b9](https://github.com/insurgent-lab/conventional-changelog-preset/commit/96c57b984acf8b10512a8086aa26b2aa741ae49c))
+* **deps:** lock file maintenance ([57185b6](https://github.com/insurgent-lab/conventional-changelog-preset/commit/57185b63bce39ae95dbd74056d1471b387efc99f))
+* **deps:** lock file maintenance ([cceef81](https://github.com/insurgent-lab/conventional-changelog-preset/commit/cceef81a75ccc2018bd22314d72e2d0b938aa061))
+* **deps:** lock file maintenance ([e95b87a](https://github.com/insurgent-lab/conventional-changelog-preset/commit/e95b87a377f06070521752c19dc4e33ec49e7ca2))
+* **deps:** lock file maintenance ([67b9b95](https://github.com/insurgent-lab/conventional-changelog-preset/commit/67b9b95ec8ca968b2909a4ecace7f850be9d584e))
+* **deps:** lock file maintenance ([8225fe3](https://github.com/insurgent-lab/conventional-changelog-preset/commit/8225fe360388d1137b8cb9e4c5be5ef47d956cd3))
+* **deps:** lock file maintenance ([17c833b](https://github.com/insurgent-lab/conventional-changelog-preset/commit/17c833b3619a1a2d1a86ec9dd58a8f4582b53bdc))
+* **deps:** lock file maintenance ([90fcbd7](https://github.com/insurgent-lab/conventional-changelog-preset/commit/90fcbd71333c1a541dec4f2a48bb2f6b628ba092))
+* **deps:** lock file maintenance ([20f120a](https://github.com/insurgent-lab/conventional-changelog-preset/commit/20f120aeec45c942a062213e6c7a8a9f2a42e6d6))
+* **deps:** update dependency eslint to v8.54.0 ([7b64a00](https://github.com/insurgent-lab/conventional-changelog-preset/commit/7b64a00880bc8887247a7bbb5c959737974652f2))
+* **deps:** update dependency eslint to v8.55.0 ([a930f55](https://github.com/insurgent-lab/conventional-changelog-preset/commit/a930f55428ef3a77b39491bd2334f5fe5b880fc5))
+* **deps:** update dependency eslint to v8.57.0 ([9ebebfe](https://github.com/insurgent-lab/conventional-changelog-preset/commit/9ebebfecb68c006df5d66f1970996cc9626d2d6b))
+* **deps:** update dependency eslint-config-prettier to v9.1.0 ([7e1305d](https://github.com/insurgent-lab/conventional-changelog-preset/commit/7e1305db908ea1a543aa3c6d5ff2011b91c1886f))
+* **deps:** update dependency eslint-plugin-prettier to v5.1.1 ([aafbe9f](https://github.com/insurgent-lab/conventional-changelog-preset/commit/aafbe9f8fc991fd10759cf1816ebb644f1a895e6))
+* **deps:** update dependency eslint-plugin-prettier to v5.1.2 ([902d56b](https://github.com/insurgent-lab/conventional-changelog-preset/commit/902d56bcdd30c3ab8872c492ecb3fc683b6210d8))
+* **deps:** update dependency eslint-plugin-prettier to v5.1.3 ([04002c0](https://github.com/insurgent-lab/conventional-changelog-preset/commit/04002c0566d127f4c87b7d89ce78abf3096a32bb))
+* **deps:** update dependency esmock to v2.6.2 ([adff09b](https://github.com/insurgent-lab/conventional-changelog-preset/commit/adff09bdfeea0bde746626978386e26ac5985881))
+* **deps:** update dependency esmock to v2.6.3 ([00ae55f](https://github.com/insurgent-lab/conventional-changelog-preset/commit/00ae55fc8e258177dfccd50e530bfbba6d4cc6ec))
+* **deps:** update dependency esmock to v2.6.4 ([cda54e5](https://github.com/insurgent-lab/conventional-changelog-preset/commit/cda54e5e7cbad21a8b7a7890da6775b8a20658eb))
+* **deps:** update dependency esmock to v2.6.5 ([ce810e3](https://github.com/insurgent-lab/conventional-changelog-preset/commit/ce810e355992f589db97d1c1f4ecd6b73a9ee50e))
+* **deps:** update dependency execa to v8 ([#113](https://github.com/insurgent-lab/conventional-changelog-preset/issues/113)) ([d6ba3d0](https://github.com/insurgent-lab/conventional-changelog-preset/commit/d6ba3d0eae397414246a7dd11b70405d59d04658))
+* **deps:** update dependency fs-extra to v11.2.0 ([2ac8f17](https://github.com/insurgent-lab/conventional-changelog-preset/commit/2ac8f17f0536fa9af4089438fca2a2effee80e6f))
+* **deps:** update dependency get-stream to v8 ([#114](https://github.com/insurgent-lab/conventional-changelog-preset/issues/114)) ([8ce00f1](https://github.com/insurgent-lab/conventional-changelog-preset/commit/8ce00f13b6a06456dd869ba64549410df2373293))
+* **deps:** update dependency p-each-series to v3 ([#115](https://github.com/insurgent-lab/conventional-changelog-preset/issues/115)) ([c50852a](https://github.com/insurgent-lab/conventional-changelog-preset/commit/c50852ab874c1c58cdb2481f8cd007303731752f))
+* **deps:** update dependency prettier to v3.1.1 ([73f374f](https://github.com/insurgent-lab/conventional-changelog-preset/commit/73f374fd306cfcadc4d69a7a187a73f6f480722d))
+* **deps:** update dependency prettier to v3.2.1 ([37ec9d6](https://github.com/insurgent-lab/conventional-changelog-preset/commit/37ec9d6ab2682eead71855964b616e27871b3e79))
+* **deps:** update dependency prettier to v3.2.2 ([b6dd159](https://github.com/insurgent-lab/conventional-changelog-preset/commit/b6dd159ef6e0127e075e3e40db3f29a214d351a8))
+* **deps:** update dependency prettier to v3.2.4 ([cbbf9b2](https://github.com/insurgent-lab/conventional-changelog-preset/commit/cbbf9b280775d6fdce665d885b998e79c20515e8))
+* **deps:** update dependency prettier to v3.2.5 ([4d99ec1](https://github.com/insurgent-lab/conventional-changelog-preset/commit/4d99ec1d75702d051154bcc33960b851672655af))
+* **deps:** update dependency prettier to v3.3.0 ([78a74ed](https://github.com/insurgent-lab/conventional-changelog-preset/commit/78a74ed4dc375a3b07053182c34d0fd2c6807149))
+* **deps:** update dependency semantic-release to v22.0.10 ([5763c03](https://github.com/insurgent-lab/conventional-changelog-preset/commit/5763c0318c27dd3ae4ea82ff406bddb8748f75ad))
+* **deps:** update dependency semantic-release to v22.0.11 ([2c4937d](https://github.com/insurgent-lab/conventional-changelog-preset/commit/2c4937de980d3da2ac8061aab4c8673e3828d07c))
+* **deps:** update dependency semantic-release to v22.0.12 ([a7d7017](https://github.com/insurgent-lab/conventional-changelog-preset/commit/a7d7017111dd4c5a876e2774e906f3b72edbf7c7))
+* **deps:** update dependency semantic-release to v22.0.8 ([03db254](https://github.com/insurgent-lab/conventional-changelog-preset/commit/03db25433fa5ed6991055437851c2f09f0fd65b7))
+* **deps:** update dependency semantic-release to v22.0.9 ([1646073](https://github.com/insurgent-lab/conventional-changelog-preset/commit/1646073424ee89043b0ff6ec606b000a600dea80))
+* **deps:** update dependency semantic-release to v24 ([#122](https://github.com/insurgent-lab/conventional-changelog-preset/issues/122)) ([b4d242a](https://github.com/insurgent-lab/conventional-changelog-preset/commit/b4d242a2e2893ee7f500df7206931f77dc838a8c))
+* **deps:** update dependency tempy to v3 ([#116](https://github.com/insurgent-lab/conventional-changelog-preset/issues/116)) ([cffff6f](https://github.com/insurgent-lab/conventional-changelog-preset/commit/cffff6f9bbc10e1e3838de9a2e0c149cc363169f))
+* **deps:** update linters ([9a53c6a](https://github.com/insurgent-lab/conventional-changelog-preset/commit/9a53c6a9f257399b07284681fe8c8a53e8ea0a09))
+
+### 💎 Styles
+
+* fix eslint ignorePatterns ([1744e9a](https://github.com/insurgent-lab/conventional-changelog-preset/commit/1744e9ae3d11a255fe633ad95e1cd28f2842b9f6))
+
 ## [9.0.1](https://github.com/insurgent-lab/conventional-changelog-preset/compare/v9.0.0...v9.0.1) (2023-11-16)
 
 
