@@ -24,7 +24,7 @@
     "node": ">=16"
   },
   "dependencies": {
-    "conventional-changelog-conventionalcommits": "^7.0.0",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
@@ -32,7 +32,7 @@
     "@semantic-release/git": "10.0.1",
     "ava": "5.3.1",
     "c8": "8.0.1",
-    "conventional-changelog": "5.1.0",
+    "conventional-changelog": "6.0.0",
     "cross-env": "7.0.3",
     "emoji-regex": "10.3.0",
     "eslint": "8.57.0",
@@ -51,13 +51,17 @@
   },
   "peerDependencies": {
     "@semantic-release/commit-analyzer": ">= 11.1.0",
-    "@semantic-release/release-notes-generator": ">= 12.1.0"
+    "@semantic-release/release-notes-generator": ">= 14.0.0",
+    "conventional-changelog": ">= 6.0.0"
   },
   "peerDependenciesMeta": {
     "@semantic-release/release-notes-generator": {
       "optional": true
     },
     "@semantic-release/commit-analyzer": {
+      "optional": true
+    },
+    "conventional-changelog": {
       "optional": true
     }
   },
