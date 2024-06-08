@@ -51,7 +51,7 @@
   },
   "peerDependencies": {
     "@semantic-release/commit-analyzer": ">= 11.1.0",
-    "@semantic-release/release-notes-generator": ">= 12.1.0",
+    "@semantic-release/release-notes-generator": ">= 14.0.0",
     "conventional-changelog": ">= 6.0.0"
 
   },
