@@ -45,7 +45,7 @@
     "get-stream": "8.0.1",
     "p-each-series": "3.0.0",
     "prettier": "3.3.3",
-    "semantic-release": "24.0.0",
+    "semantic-release": "24.1.0",
     "stringz": "2.1.0",
     "tempy": "3.1.0"
   },
