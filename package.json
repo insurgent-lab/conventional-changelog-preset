@@ -35,7 +35,7 @@
     "conventional-changelog": "6.0.0",
     "cross-env": "7.0.3",
     "emoji-regex": "10.4.0",
-    "eslint": "8.57.0",
+    "eslint": "8.57.1",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-ava": "14.0.0",
     "eslint-plugin-prettier": "5.2.1",
