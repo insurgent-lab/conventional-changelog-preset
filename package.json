@@ -41,7 +41,7 @@
     "eslint-plugin-prettier": "5.2.1",
     "esmock": "2.6.9",
     "execa": "9.5.2",
-    "fs-extra": "11.2.0",
+    "fs-extra": "11.3.0",
     "get-stream": "9.0.1",
     "p-each-series": "3.0.0",
     "prettier": "3.4.2",
