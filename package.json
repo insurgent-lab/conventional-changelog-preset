@@ -35,7 +35,7 @@
     "conventional-changelog": "6.0.0",
     "cross-env": "7.0.3",
     "emoji-regex": "10.4.0",
-    "eslint": "9.19.0",
+    "eslint": "9.21.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-ava": "15.0.1",
     "eslint-plugin-prettier": "5.2.3",
@@ -44,7 +44,7 @@
     "fs-extra": "11.3.0",
     "get-stream": "9.0.1",
     "p-each-series": "3.0.0",
-    "prettier": "3.4.2",
+    "prettier": "3.5.1",
     "semantic-release": "24.2.3",
     "stringz": "2.1.0",
     "tempy": "3.1.0"
