@@ -47,7 +47,7 @@
     "prettier": "3.6.2",
     "semantic-release": "24.2.3",
     "stringz": "2.1.0",
-    "tempy": "3.1.0"
+    "tempy": "3.1.1"
   },
   "peerDependencies": {
     "@semantic-release/commit-analyzer": ">= 11.1.0",
